@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MIPBD]">
+  <test name="GSAAPI(failed)">
+    <classes>
+      <class name="com.thbs.mip.gsa.GSAApi">
+        <methods>
+          <include name="testAPI"/>
+          <include name="accessToken"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.thbs.mip.gsa.GSAApi -->
+    </classes>
+  </test> <!-- GSAAPI(failed) -->
+</suite> <!-- Failed suite [MIPBD] -->

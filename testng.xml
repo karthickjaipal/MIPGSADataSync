@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MIPBD">
+	<test name="GSAAPI">
+		<classes>
+			<!--<class name="myFirstDemo.PATCHMethodDemo"/> 
+			    <class name="myFirstDemo.DELETEMethodDemo"/> 
+				<class name="myFirstDemo.Baseclass"/> 
+				<class name="myFirstDemo.GETMethodDemo"/> 
+				<class name="myFirstDemo.PUTMethodDemo"/> 
+				<class name="myFirstDemo.RegisterCustomerAPI"/> 
+				<class name="RestAssuredProject.RestAssuredProject.AppTest"/>
+				<class name="myFirstDemo.POSTMethodDemo"/> -->
+			<class name="com.thbs.mip.gsa.GSAApi">
+				<methods>
+					<!-- <include name="registrationAPITest" />
+					<include name="searchCustomerAPITest" />
+					<include name="deactivationAPITest"/>
+					<include name="paymentReactivationAPITest" /> 
+					<include name="updateCoverAPITest" />
+					<include name="editCustomerAPITest" /> --> 
+					<include name="testAPI" />
+					
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- GSAAPI -->
+</suite> <!-- MIPBD -->
